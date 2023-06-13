@@ -1,0 +1,31 @@
+body {
+  background-color: #f4f9ff;
+}
+.btn-purple {
+  background-color: #896df6;
+  color: #fff;
+}
+.btn-purple:hover {
+  background-color: #7859f5;
+  color: #fff;
+}
+.btn-purple-dark {
+  background-color: #6e4cf5;
+  color: #fff;
+}
+.btn-purple-dark:hover {
+  background-color: #643dfc;
+  color: #fff;
+}
+.text-purple {
+  color: #896df6;
+}
+.text-red {
+  color: #e45252;
+}
+.text-slate-400 {
+  color: #94a3b8;
+}
+.text-slate-500 {
+  color: #475569;
+}
