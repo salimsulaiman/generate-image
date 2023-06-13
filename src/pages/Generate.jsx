@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 import { createAvatar } from "@dicebear/core";
 import { avataaars, funEmoji, initials } from "@dicebear/collection";
 import "./../css/style.css";
@@ -15,9 +16,6 @@ function Generate() {
     const png = await avatar.png({});
 
     png.toFile("avatar.png");
-    // console.log(name);
-    // console.log(svg);
-    // console.log("diklik");
   };
   return (
     <div>
